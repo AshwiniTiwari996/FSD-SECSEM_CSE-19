@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse; /* Merges table borders for a cleaner look */
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    caption-side: top; /* Positions the caption at the top of the table */
+    color: #333;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center; /* Centers text in all cells */
+}
+
+thead th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Adds a zebra-striping effect to rows */
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tfoot td {
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
+    text-align: right; /* Aligns the footer label to the right */
+    padding-right: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Result Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <table>
+        <caption>
+            <strong>Student Examination Results - 2024</strong>
+        </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Student Name</th>
+                <th colspan="3">Subjects & Marks</th>
+                <th rowspan="2">Grade</th>
+            </tr>
+            <tr>
+                <th>Math</th>
+                <th>Science</th>
+                <th>English</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ashwini</td>
+                <td>85</td>
+                <td>92</td>
+                <td>78</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Aryan</td>
+                <td>60</td>
+                <td>75</td>
+                <td>88</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Ashwin</td>
+                <td>95</td>
+                <td>89</td>
+                <td>91</td>
+                <td>A+</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">**Average Score**</td>
+                <td>83.3%</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
+
+</body>
+</html>
